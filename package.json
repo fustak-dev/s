@@ -1,0 +1,26 @@
+{
+    "name": "@fustak/s",
+    "description": "S is a browser micro-library (<1 KB) to define CSS declarations as props and creates atomic classes from them",
+    "version": "0.1.0",
+    "license": "MIT",
+    "private": true,
+    "main": "index.js",
+    "module": "index.js",
+    "type": "module",
+    "files": [
+        "dist",
+        "index.js",
+        "attrs.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@fustak-dev:fustak-dev/s.git"
+    },
+    "keywords": ["css-in-js", "atomic-css", "css"],
+    "devDependencies": {
+        "esbuild": "0.17.8",
+        "gzip-size": "7.0.0",
+        "prettier": "2.8.8",
+        "t-t": "git+https://github.com/gc-victor/t-t.git#main"
+    }
+}
