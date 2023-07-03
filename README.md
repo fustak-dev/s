@@ -42,12 +42,14 @@ Output
 ```
 
 ```html
-<style id="@fustak/s">
+<style id="fustak-s">
     .c2405978758 {background: blue}
 </style>
 ```
 
-Preact Shim:
+You have to add a style tag with the id `fustak-s` to the `head` of your html file.
+
+### Preact Shim
 
 To use it with Preact you can create a shim file.
 
@@ -68,7 +70,6 @@ function u({ attributes, children, tag, defaultProps = {}, props = {}, ...rest }
 window.h = h;
 window.Fragment = Fragment;
 window.U = u;
-window.u = u;
 ```
 
 Import it in your `index.js` file.
@@ -156,7 +157,7 @@ Output
 ```
 
 ```html
-<style id="@fustak/s">
+<style id="fustak-s">
     .c2405978758 {background-color: #1f2937}
     .c2405978759 {color: #fff}
     .c2405978760 {padding: 8px}
